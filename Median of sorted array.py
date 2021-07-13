@@ -1,5 +1,5 @@
 class Solution:
-    def median(self, nums1, nums2) -> float:
+    def median(self, nums1: list[int], nums2: list[int]) -> float:
         lst = nums1 + nums2
         lst.sort()
         n = len(lst)
